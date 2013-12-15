@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9EDC484185DFE1E00A0435D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDC483185DFE1E00A0435D /* Foundation.framework */; };
+		E9EDC486185DFE1E00A0435D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDC485185DFE1E00A0435D /* CoreGraphics.framework */; };
+		E9EDC488185DFE1E00A0435D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDC487185DFE1E00A0435D /* UIKit.framework */; };
+		E9EDC48E185DFE1E00A0435D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9EDC48C185DFE1E00A0435D /* InfoPlist.strings */; };
+		E9EDC490185DFE1E00A0435D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EDC48F185DFE1E00A0435D /* main.m */; };
+		E9EDC494185DFE1E00A0435D /* YandeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EDC493185DFE1E00A0435D /* YandeAppDelegate.m */; };
+		E9EDC496185DFE1E00A0435D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EDC495185DFE1E00A0435D /* Images.xcassets */; };
+		E9EDC49D185DFE1E00A0435D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDC49C185DFE1E00A0435D /* XCTest.framework */; };
+		E9EDC49E185DFE1E00A0435D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDC483185DFE1E00A0435D /* Foundation.framework */; };
+		E9EDC49F185DFE1E00A0435D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDC487185DFE1E00A0435D /* UIKit.framework */; };
+		E9EDC4A7185DFE1E00A0435D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9EDC4A5185DFE1E00A0435D /* InfoPlist.strings */; };
+		E9EDC4A9185DFE1E00A0435D /* Yande_GeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EDC4A8185DFE1E00A0435D /* Yande_GeterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9EDC4A0185DFE1E00A0435D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9EDC478185DFE1E00A0435D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EDC47F185DFE1E00A0435D;
+			remoteInfo = "Yande Geter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9EDC480185DFE1E00A0435D /* Yande Geter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yande Geter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EDC483185DFE1E00A0435D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9EDC485185DFE1E00A0435D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9EDC487185DFE1E00A0435D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9EDC48B185DFE1E00A0435D /* Yande Geter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yande Geter-Info.plist"; sourceTree = "<group>"; };
+		E9EDC48D185DFE1E00A0435D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9EDC48F185DFE1E00A0435D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9EDC491185DFE1E00A0435D /* Yande Geter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yande Geter-Prefix.pch"; sourceTree = "<group>"; };
+		E9EDC492185DFE1E00A0435D /* YandeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YandeAppDelegate.h; sourceTree = "<group>"; };
+		E9EDC493185DFE1E00A0435D /* YandeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YandeAppDelegate.m; sourceTree = "<group>"; };
+		E9EDC495185DFE1E00A0435D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9EDC49B185DFE1E00A0435D /* Yande GeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yande GeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EDC49C185DFE1E00A0435D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9EDC4A4185DFE1E00A0435D /* Yande GeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yande GeterTests-Info.plist"; sourceTree = "<group>"; };
+		E9EDC4A6185DFE1E00A0435D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9EDC4A8185DFE1E00A0435D /* Yande_GeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yande_GeterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9EDC47D185DFE1E00A0435D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EDC486185DFE1E00A0435D /* CoreGraphics.framework in Frameworks */,
+				E9EDC488185DFE1E00A0435D /* UIKit.framework in Frameworks */,
+				E9EDC484185DFE1E00A0435D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EDC498185DFE1E00A0435D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EDC49D185DFE1E00A0435D /* XCTest.framework in Frameworks */,
+				E9EDC49F185DFE1E00A0435D /* UIKit.framework in Frameworks */,
+				E9EDC49E185DFE1E00A0435D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9EDC477185DFE1E00A0435D = {
+			isa = PBXGroup;
+			children = (
+				E9EDC489185DFE1E00A0435D /* Yande Geter */,
+				E9EDC4A2185DFE1E00A0435D /* Yande GeterTests */,
+				E9EDC482185DFE1E00A0435D /* Frameworks */,
+				E9EDC481185DFE1E00A0435D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9EDC481185DFE1E00A0435D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9EDC480185DFE1E00A0435D /* Yande Geter.app */,
+				E9EDC49B185DFE1E00A0435D /* Yande GeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9EDC482185DFE1E00A0435D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9EDC483185DFE1E00A0435D /* Foundation.framework */,
+				E9EDC485185DFE1E00A0435D /* CoreGraphics.framework */,
+				E9EDC487185DFE1E00A0435D /* UIKit.framework */,
+				E9EDC49C185DFE1E00A0435D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9EDC489185DFE1E00A0435D /* Yande Geter */ = {
+			isa = PBXGroup;
+			children = (
+				E9EDC492185DFE1E00A0435D /* YandeAppDelegate.h */,
+				E9EDC493185DFE1E00A0435D /* YandeAppDelegate.m */,
+				E9EDC495185DFE1E00A0435D /* Images.xcassets */,
+				E9EDC48A185DFE1E00A0435D /* Supporting Files */,
+			);
+			path = "Yande Geter";
+			sourceTree = "<group>";
+		};
+		E9EDC48A185DFE1E00A0435D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9EDC48B185DFE1E00A0435D /* Yande Geter-Info.plist */,
+				E9EDC48C185DFE1E00A0435D /* InfoPlist.strings */,
+				E9EDC48F185DFE1E00A0435D /* main.m */,
+				E9EDC491185DFE1E00A0435D /* Yande Geter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9EDC4A2185DFE1E00A0435D /* Yande GeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9EDC4A8185DFE1E00A0435D /* Yande_GeterTests.m */,
+				E9EDC4A3185DFE1E00A0435D /* Supporting Files */,
+			);
+			path = "Yande GeterTests";
+			sourceTree = "<group>";
+		};
+		E9EDC4A3185DFE1E00A0435D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9EDC4A4185DFE1E00A0435D /* Yande GeterTests-Info.plist */,
+				E9EDC4A5185DFE1E00A0435D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9EDC47F185DFE1E00A0435D /* Yande Geter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EDC4AC185DFE1E00A0435D /* Build configuration list for PBXNativeTarget "Yande Geter" */;
+			buildPhases = (
+				E9EDC47C185DFE1E00A0435D /* Sources */,
+				E9EDC47D185DFE1E00A0435D /* Frameworks */,
+				E9EDC47E185DFE1E00A0435D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yande Geter";
+			productName = "Yande Geter";
+			productReference = E9EDC480185DFE1E00A0435D /* Yande Geter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9EDC49A185DFE1E00A0435D /* Yande GeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EDC4AF185DFE1E00A0435D /* Build configuration list for PBXNativeTarget "Yande GeterTests" */;
+			buildPhases = (
+				E9EDC497185DFE1E00A0435D /* Sources */,
+				E9EDC498185DFE1E00A0435D /* Frameworks */,
+				E9EDC499185DFE1E00A0435D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9EDC4A1185DFE1E00A0435D /* PBXTargetDependency */,
+			);
+			name = "Yande GeterTests";
+			productName = "Yande GeterTests";
+			productReference = E9EDC49B185DFE1E00A0435D /* Yande GeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9EDC478185DFE1E00A0435D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Yande;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "南 篤良";
+				TargetAttributes = {
+					E9EDC49A185DFE1E00A0435D = {
+						TestTargetID = E9EDC47F185DFE1E00A0435D;
+					};
+				};
+			};
+			buildConfigurationList = E9EDC47B185DFE1E00A0435D /* Build configuration list for PBXProject "Yande Geter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9EDC477185DFE1E00A0435D;
+			productRefGroup = E9EDC481185DFE1E00A0435D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9EDC47F185DFE1E00A0435D /* Yande Geter */,
+				E9EDC49A185DFE1E00A0435D /* Yande GeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9EDC47E185DFE1E00A0435D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EDC48E185DFE1E00A0435D /* InfoPlist.strings in Resources */,
+				E9EDC496185DFE1E00A0435D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EDC499185DFE1E00A0435D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EDC4A7185DFE1E00A0435D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9EDC47C185DFE1E00A0435D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EDC494185DFE1E00A0435D /* YandeAppDelegate.m in Sources */,
+				E9EDC490185DFE1E00A0435D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EDC497185DFE1E00A0435D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EDC4A9185DFE1E00A0435D /* Yande_GeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9EDC4A1185DFE1E00A0435D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9EDC47F185DFE1E00A0435D /* Yande Geter */;
+			targetProxy = E9EDC4A0185DFE1E00A0435D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9EDC48C185DFE1E00A0435D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EDC48D185DFE1E00A0435D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9EDC4A5185DFE1E00A0435D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EDC4A6185DFE1E00A0435D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9EDC4AA185DFE1E00A0435D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9EDC4AB185DFE1E00A0435D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9EDC4AD185DFE1E00A0435D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yande Geter/Yande Geter-Prefix.pch";
+				INFOPLIST_FILE = "Yande Geter/Yande Geter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9EDC4AE185DFE1E00A0435D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yande Geter/Yande Geter-Prefix.pch";
+				INFOPLIST_FILE = "Yande Geter/Yande Geter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9EDC4B0185DFE1E00A0435D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yande Geter.app/Yande Geter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yande Geter/Yande Geter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yande GeterTests/Yande GeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9EDC4B1185DFE1E00A0435D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yande Geter.app/Yande Geter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yande Geter/Yande Geter-Prefix.pch";
+				INFOPLIST_FILE = "Yande GeterTests/Yande GeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9EDC47B185DFE1E00A0435D /* Build configuration list for PBXProject "Yande Geter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EDC4AA185DFE1E00A0435D /* Debug */,
+				E9EDC4AB185DFE1E00A0435D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EDC4AC185DFE1E00A0435D /* Build configuration list for PBXNativeTarget "Yande Geter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EDC4AD185DFE1E00A0435D /* Debug */,
+				E9EDC4AE185DFE1E00A0435D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9EDC4AF185DFE1E00A0435D /* Build configuration list for PBXNativeTarget "Yande GeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EDC4B0185DFE1E00A0435D /* Debug */,
+				E9EDC4B1185DFE1E00A0435D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9EDC478185DFE1E00A0435D /* Project object */;
+}
