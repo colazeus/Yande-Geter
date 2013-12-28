@@ -13,4 +13,26 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "HttpManage.h"
+//    #import "UIImageView+Cache.h"
+    #import "ProjectCache.h"
+    #import "YandeAppDelegate.h"
+    #import "NSString+Hashing.h"
+#define APPDELEGATE (YandeAppDelegate *)[UIApplication sharedApplication].delegate
+#define EXTRAIOS7 [[[UIDevice currentDevice] systemVersion] floatValue]>=7?20.0f:0.0f
+#define SERVERIP @"http://222.73.44.172:8088/"
+
+typedef enum {
+    NETWORK_TYPE_NONE= 0,
+    NETWORK_TYPE_WIFI= 1,
+    NETWORK_TYPE_2G= 2,
+    NETWORK_TYPE_3G= 3,
+}NETWORK_TYPE;
+
+typedef enum {
+    POST_TYPE_TABLE = 0,
+    POST_TYPE_FILE = 1,
+    POST_TYPE_PIC_FILE=2
+}POST_TYPE;
+
 #endif
